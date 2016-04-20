@@ -1,0 +1,92 @@
+body{
+    color: white;
+}
+
+footer{
+    height: 50px;
+    background-color: #3c3c3c;
+    /*text-align: center;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-info{
+    height: 40px;
+    background: #2aabd2;
+}
+
+.top-info span{
+    padding-right: 20px;
+}
+
+.top-info .container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-info .container{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.navigation{
+    height: 110px;
+    background-color: #122b40;
+}
+
+.navigation .navbar-nav{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+
+.navigation .navbar-default .navbar-nav > li > a{
+    height: 110px;
+    line-height: 78px;
+}
+
+.navigation .navbar-default{
+    background-color: #122b40;
+    border-color: #122b40;
+    height: 110px;
+    margin: 0;
+}
+
+.navbar-default{
+    background-color: #122b40;
+    border-color: #122b40;
+    height: 100%;
+}
+
+.navbar-default .navbar-nav{
+        margin-top: -1px;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:focus{
+    color: white
+}
+
+.slider{
+    max-height: 400px;
+    height: 400px;
+}
+.slider > div{
+    max-height: 400px;
+    height: 100%;
+}
+/*.slider img{*/
+    /*max-height: 400px;*/
+    /*height: 400px;*/
+/*}*/
+
+/*#####Extra small screens to tablet####*/
+@media (max-width: 767px) {
+    .navigation .navbar-nav{
+        display: block;
+        position: static;
+
+    }
+
+}

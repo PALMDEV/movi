@@ -15,7 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-
+from muviapp import views as movi_views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', movi_views.home),
 ]
